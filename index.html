@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="styles/css/styles.min.css" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet" >
+		<link rel="icon" href="https://img.icons8.com/doodle/48/000000/grass.png" />
+		<title>Plants</title>
+	</head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+        <svg id="ScrollTopButton" onclick="scrollTopDocument()" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.6568 8.96219L16.2393 10.3731L12.9843 7.10285L12.9706 20.7079L10.9706 20.7059L10.9843 7.13806L7.75404 10.3532L6.34314 8.93572L12.0132 3.29211L17.6568 8.96219Z" fill="currentColor" />
+        </svg>
+
+        <header>
+            <nav class="nav">
+                <a class="nav-link logo active" style="text-decoration: underline;" aria-current="page" href="index.html">
+                    <img src="https://img.icons8.com/doodle/48/000000/grass.png" alt="">Gardenly
+                </a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="about.html">About Us</a>
+            </nav>
+        </header>
+        <main>
+            <!-- start hero -->
+            <section class="hero">
+                <div class="hero-image"></div>
+                <div class="hero-text">
+                    <h1>Gardenly</h1>
+                    <p>Bring the beauty of nature home and choose from a variety of flowers and leaves</p>
+                </div>
+                <div class="hero-icons">
+                    <a href="https://instagram.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://facebook.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="web.whatsapp.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://youtube.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-youtube"></i></a>
+                </div>
+            </section>
+            <!-- end hero -->
+            <!-- start carrousel -->
+            <section>
+                <div id="plantsExamplesCarrousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#plantsExamplesCarrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#plantsExamplesCarrousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#plantsExamplesCarrousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#plantsExamplesCarrousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner d-flex justify-content-center align-items-center">
+                      <div class="carousel-item active">
+                        <img src="src/carousel-01.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/carousel-02.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/carousel-03.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/carousel-04.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#plantsExamplesCarrousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#plantsExamplesCarrousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+            <!-- end carrousel -->
+            <!-- start categories -->
+            <section class="categories">
+              <div class="grid-col">
+                <div class="card text-bg-dark">
+                  <img src="src/plant-01.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="card text-bg-dark">
+                  <img src="src/plant-02.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="card text-bg-dark">
+                  <img src="src/plant-03.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-col">
+                <div class="card text-bg-dark">
+                  <img src="src/plant-04.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="card text-bg-dark">
+                  <img src="src/plant-05.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- end categories -->
+            <!-- start call to action -->
+            <section class="call-to-action container">
+              <div class="row align-items-center">
+                <img src="src/greenhouse.avif" alt="..." class="col">
+                <div class="col">
+                  <h2>Text</h2>
+                  <p>This is a text which you'll read and it will capt your attention</p>
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-secondary">Secondary</button>
+                </div>
+              </div>
+            </section>
+            <!-- end call to action -->
+        </main>
+        <footer class="footer">
+            <section>
+                <h3>Follow us</h3>
+                <div class="follow-icons">
+                    <a href="https://instagram.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://facebook.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="web.whatsapp.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://youtube.com" rel="noopener noreferrer" target="_blank"><i class="bi bi-youtube"></i></a>
+                </div>
+            </section>
+            <section>
+                <h3>Contact</h3>
+                <a href="tel:+54 911 5571-8101" rel="noopener noreferrer" target="_blank">+54 911 5571-8101</a>
+                <a href="mailto:jjaacabrera@gmail.com" rel="noopener noreferrer" target="_blank">gmail</a>
+            </section>
+            <section>
+                <h3>About us</h3>
+                We sell plants
+            </section>
+        </footer>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>

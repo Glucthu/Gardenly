@@ -1,0 +1,33 @@
+@import './variables';
+@import './header';
+@import './main';
+@import './footer';
+@import './media';
+
+#ScrollTopButton {
+    display: none;
+    color: #000000;
+    z-index: 1000;
+    background-color: $extra;
+    width: 64px;
+    height: 64px;
+    padding: 16px;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 10%;
+    right: 5%;
+    cursor: pointer;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    margin: 0;
+    grid-template-rows: auto auto auto;
+}
+
+@each $heading in $headings {
+    #{$heading}, p {
+        cursor: default;
+    }
+}
